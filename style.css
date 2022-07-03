@@ -7,20 +7,7 @@
     
 }
 
-.navbar-brand{
-    color: white;
-    letter-spacing:5px;
-}
-.nav-link{
-    color: white;
-}
 
-.navbar-brand:hover{
-    color: white;
-}
-.nav-link:hover{
-    color: white;
-}
 #home{
     height: 91vh;
     position: relative;
