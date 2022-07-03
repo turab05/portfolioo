@@ -56,7 +56,14 @@ background-size: cover;
     line-height: 10px;
 }
 
-@media (max-width: 480px) {
+
+
+
+
+
+/* MEDIA QUERIES START FROM HERE */
+
+/* @media (max-width: 480px) {
    .name{
     left: 88px;
    }
@@ -69,4 +76,4 @@ background-size: cover;
         .card{
             left: 179px;
         }
-    }
+    } */
