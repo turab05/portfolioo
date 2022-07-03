@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gantari', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'PT Sans', sans-serif;
+    
+}
+
+.navbar-brand{
+    color: white;
+    letter-spacing:5px;
+}
+.nav-link{
+    color: white;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+.nav-link:hover{
+    color: white;
+}
+#home{
+    height: 91vh;
+    position: relative;
+}
+.container-fluid{
+    /* background: grey; */
+    display: flex;
+   width: 100%;
+   position: absolute;
+  top: 35px;
+   
+}
+.card{
+  flex-wrap: wrap;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+background-image: url(./turab.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+  height: 25rem;
+   width: 25rem; 
+   border-radius: 50px;
+   position: relative;
+ 
+   top: 27px;
+    
+}
+.name{
+
+    position: relative;
+    top: 45px;
+ left: 88px;
+    width: 70;
+    line-height: 10px;
+}
+
+@media (max-width: 480px) {
+   .name{
+    left: 88px;
+   }
+    }
+    @media (min-width: 481px) and (max-width: 767px) {
+        .name{
+            left: 276px;
+            width: 84%;
+        }
+        .card{
+            left: 179px;
+        }
+    }
